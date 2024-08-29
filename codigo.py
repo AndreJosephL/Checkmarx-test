@@ -1,5 +1,11 @@
 import requests
+import numpy as np
+import pandas as panda
 from bs4 import BeautifulSoup
+
+x = 25
+y = np.sqrt(x)
+print(y)
 
 def get_wikipedia_summary(query):
     """Obtiene el resumen de una búsqueda en Wikipedia."""
